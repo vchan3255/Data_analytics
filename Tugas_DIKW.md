@@ -1,4 +1,4 @@
-DIKW Data,Information, Knowledge, Wisdom tentang tiktok shop produk komik
+#💫Analisis tiktok shop produk komik dengan dasar piramida DIKW Data,Information, Knowledge, Wisdom
 Saya memilih di bidang bisnis digital, bidang bisnis nya berada di tiktok shop dan menjual produk komik
 Saya menganalisis data/fakta mentah dari produk komik. 
 Pertama saya lihat viewers yang menonton video produk saya,misalkan saya mendapatkan viewers di angka 1000 kemudian produk saya yang terjual ada 20.
