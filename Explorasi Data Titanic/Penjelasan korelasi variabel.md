@@ -27,23 +27,23 @@ Sebaliknya, penumpang kelas 3 dengan tiket murah dan berada di dek bawah menjadi
 
 3. Embarked <-> Survival (korelasi tidak langsung)\
 Angka: embarked punya korelasi dengan fare dan class.\
-Ceritanya: penumpang dari Cherbourg (C) banyak kelas 1 -> survival tinggi.\
-Sedangkan Southampton (S) mayoritas kelas 3 -> survival rendah.
+Ceritanya: penumpang dari Cherbourg (C) banyak yang berada di kelas 1 -> sehingga survivalnya tinggi.\
+Sedangkan Southampton (S) dengan penumpang mayoritas kelas 3 -> memiliki tingkat survival rendah.
 
 4. SibSp & Parch <-> Family Size <-> Survival\
 Angka: sibsp dan parch saling berkorelasi (keluarga besar).\
-Ceritanya: keluarga kecil (2–4 orang) cenderung lebih selamat karena bisa saling bantu.\
-Kalau sendirian -> tidak ada yang bantu.\
-Kalau keluarga besar -> sulit menyelamatkan semua, survival menurun.\
+Ceritanya: keluarga kecil (2–4 orang) cenderung lebih selamat karena bisa saling bantu dan tolong-menolong.\
+Kalau sendirian -> tidak ada yang membantu.\
+Kalau keluarga besar -> sulit menyelamatkan semua sekaligus, survival menurun.\
 
-5. Age <-> Survival (korelasi lemah tapi penting)\
+5. Age <-> Survival (korelasi yang lemah tapi penting)\
 Angka: age tidak terlalu berkorelasi dengan survival secara linear\
-Ceritanya: bayi/anak kecil lebih diutamakan diselamatkan, orang dewasa laki-laki justru banyak yang tidak selamat. Jadi hubungannya lebih non-linear.
+Ceritanya: bayi/anak kecil lebih diutamakan diselamatkan, orang dewasa laki-laki justru banyak yang tidak selamat.
 
 ## ✨ Jadi heatmap memberikan angka hubungan antar variabel, sementara kisah Titanic menjelaskan kenapa angka itu muncul di dunia nyata.
 Keduanya saling melengkapi:\
-Angka -> bukti statistik.\
-Cerita -> alasan logis & manusiawi.
+Angka -> bukti statistik berdasarkan data yang sudah dikumpulkan, pastinya data tersebut jelas dan berdasarkan penelitian melalui prosedur mengumpulkan data.\
+Cerita -> alasan yang logis & manusiawi sehingga variabel nya saling mempengaruhi satu sama lain dengan kejadian yang terjadi dan dilakukan oleh pelaku di tempat kejadian tersebut.
 
 ---
-[File RAW](https://colab.research.google.com/drive/1-8XgpdgzRZ3yL4nKs0G46cTKtPL1TybI#scrollTo=6Qi4dviBFgIf)
+📁[File RAW](https://colab.research.google.com/drive/1-8XgpdgzRZ3yL4nKs0G46cTKtPL1TybI#scrollTo=6Qi4dviBFgIf)
