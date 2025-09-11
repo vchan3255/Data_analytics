@@ -4,13 +4,13 @@
 <br>
 
 ### 🔎 Interpretasi Korelasi Titanic:
-- Alasan kuat yang membuat korelasi titanic peluang selamat tinggi: penumpang wanita -> peluang selamatnya tinggi.\
-  peluang penumpang yang membeli tiket kelas 1 / fare mahal -> peluang selamatnya tinggi.
-- Alasan kuat yang membuat korelasi titanic peluang selamat rendah: penumpang pria -> peluang selamatnya rendah.\
-  penumpang yang membeli tiket kelas 3 / fare murah -> peluang selamatnya rendah.
-- Alasan yang Sedang: Embarked Cherbourg -> banyak kelas 1 -> survival naik.\
+- Alasan kuat yang membuat korelasi titanic peluang selamatnya tinggi (positif): penumpang wanita memiliki peluang selamatnya tinggi.\
+  peluang penumpang yang membeli tiket kelas 1 / fare mahal memiliki peluang selamatnya tinggi.
+- Alasan kuat yang membuat korelasi titanic peluang selamatnya rendah (positif): penumpang pria memiliki peluang selamatnya rendah.\
+  penumpang yang membeli tiket kelas 3 / fare murah memiliki peluang selamatnya rendah.
+- Alasan yang memiliki pengaruh positif dan negatif: Embarked Cherbourg -> banyak kelas 1 -> survival naik.\
   Embarked Southampton -> banyak kelas 3 -> survival turun.
-- Lemah: Usia muda -> sedikit lebih banyak selamat.\
+- Alasan yang lemah/tidak terlalu berpengaruh (negatif): penumpang dengan usia muda -> sedikit lebih banyak selamat.\
   Terlalu banyak keluarga (SibSp/Parch tinggi) -> survival turun.
  
 <br>
@@ -18,12 +18,12 @@
 ### Cerita di Balik Korelasi Titanic 🚢
 1. Sex <-> Survival (korelasi sangat kuat)\
 Heatmap menunjukkan variabel sex_num berkorelasi tinggi dengan survived.\
-Ceritanya: aturan “women and children first” membuat lebih banyak wanita selamat dibanding pria.\
+Ceritanya: aturan “women and children first” yang membuat lebih banyak wanita selamat dibanding pria.\
 
 2. Class <-> Fare <-> Survival\
-Korelasi: class_num dan fare hampir mirror image (kelas rendah → fare kecil, kelas tinggi → fare besar).\
-Ceritanya: penumpang kelas 1 (tiket mahal) lebih dekat ke sekoci, peluang selamat jauh lebih tinggi.\
-Sebaliknya, penumpang kelas 3 (tiket murah, dek bawah) terjebak, survival rendah.
+Korelasi: class_num dan fare hampir mirror image artinya dua variabel memiliki pengaruh korelasi yang kuat tapi berlawanan arah (negatif) (kelas rendah → fare kecil, kelas tinggi → fare besar).\
+Ceritanya: penumpang kelas 1 (tiket mahal) lebih dekat dengan sekoci, peluang selamatnya menjadi jauh lebih tinggi.\
+Sebaliknya, penumpang kelas 3 dengan tiket murah dan berada di dek bawah menjadi terjebak sehingga memiliki survival rendah.
 
 3. Embarked <-> Survival (korelasi tidak langsung)\
 Angka: embarked punya korelasi dengan fare dan class.\
