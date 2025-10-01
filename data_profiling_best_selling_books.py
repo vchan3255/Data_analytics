@@ -12,14 +12,14 @@ https://www.kaggle.com/datasets/imaditia/indonesia-reading-interest-2020-2023
 
 !pip install ydata-profiling
 
-# 1. Mengimpor library
+# Mengimpor library
 import pandas as pd#Library utama untuk memanipulasi dan menganalisis data.
 import numpy as np#Library dasar untuk operasi numerik
 import matplotlib.pyplot as plt#Library untuk membuat visualisasi data
 import seaborn as sns#Library yang dibangun di atas matplotlib yang lebih baik untuk visualisasi data
 from ydata_profiling import ProfileReport # Mengimpor ProfileReport
 
-# --- Langkah 1: Memuat Dataset ---
+# --- Memuat Dataset ---
 try:
     df = pd.read_csv("best-selling-books.csv")
     print("\nDataset berhasil dimuat.")
@@ -32,15 +32,15 @@ except FileNotFoundError:
     print("Dipastikan Anda sudah mengunggah file ini ke sesi Google Colab Anda.")
     exit()
 
-# --- Langkah 2: Melakukan Data Profiling ---
+# --- Melakukan Data Profiling ---
 print("\nMelakukan Data Profiling (ini mungkin memakan waktu beberapa saat)...")
 profile = ProfileReport(df, title="Laporan Profiling Buku Terlaris", explorative=True)
 profile.to_widgets()
 print("Laporan Data Profiling selesai. Silakan gulir ke atas untuk melihatnya.")
 
-# --- Langkah 3: Visualisasi Data (Setelah Profiling) ---
+# --- Visualisasi Data (Setelah Profiling) ---
 
-# Visualisasi 1: Histogram distribusi 'Approximate sales in millions'
+# Visualisasi Histogram distribusi 'Approximate sales in millions'
 plt.figure(figsize=(10, 6))
 plt.hist(df['Approximate sales in millions'].dropna(), bins=30, color='skyblue', edgecolor='black')
 plt.title('Distribusi Approximate Sales in Millions', fontsize=16)
@@ -51,7 +51,7 @@ plt.savefig('approximate_sales_histogram.png')
 print("\nVisualisasi 'approximate_sales_histogram.png' disimpan.")
 
 
-# Visualisasi 2: Bar Chart Horisontal untuk Top 10 Genre
+# Visualisasi Bar Chart Horisontal untuk Top 10 Genre
 # Mengambil 10 genre teratas
 top_10_genres = df['Genre'].value_counts().head(10)
 plt.figure(figsize=(12, 8)) # Ukuran figure lebih besar untuk label yang panjang
@@ -63,7 +63,7 @@ plt.tight_layout()
 plt.savefig('top_10_genres.png')
 print("\nVisualisasi 'top_10_genres.png' disimpan.")
 
-# Visualisasi 4: Horizontal Bar Chart untuk Top 10 Penulis
+# Visualisasi Horizontal Bar Chart untuk Top 10 Penulis
 # Mengambil 10 penulis teratas
 author_counts = df['Author(s)'].value_counts().head(10)
 plt.figure(figsize=(12, 8))
@@ -75,7 +75,7 @@ plt.tight_layout()
 plt.savefig('top_10_authors.png')
 print("Visualisasi 'top_10_authors.png' disimpan.")
 
-# Visualisasi 5: Box Plot untuk Top 10 Tahun Paling Produktif (Opsional, jika ingin melihat distribusi)
+# Visualisasi Box Plot untuk Top 10 Tahun Paling Produktif (Opsional, jika ingin melihat distribusi)
 # Mengidentifikasi 10 tahun dengan jumlah buku terbanyak
 top_10_years_by_count = df['First published'].value_counts().head(10).index
 df_top_years_by_count = df[df['First published'].isin(top_10_years_by_count)]
