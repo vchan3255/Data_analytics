@@ -66,3 +66,4 @@ Setelah melakukan tahapan analisis data, visualisasi data menghasilkan sebuah wa
 6. Penggunaan internet yang tinggi tidak mematikan minat pembaca(scatter plot)
 7. Orang yang membaca dengan durasi lama memiliki tingkat kegemaran membaca yang tinggi juga(scatter plot)
 8. Orang yang memiliki durasi lama di internet juga bisa membaca dengan durasi yang lama(scatter plot)
+9. Dari model decision tree, dapat diketahui bahwa pertengahan tahun 2023 ke bawah mayoritas memiliki tingkat kegemaran membaca yang tinggi sedangkan pertengahan tahun 2023 ke atas memiliki kategori tingkat kegemaran membaca yang sedang bahkan tidak ada provinsi yang masuk kategori tinggi(decision tree)
