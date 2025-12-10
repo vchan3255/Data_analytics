@@ -27,6 +27,8 @@ Mengubah data yang bersih agar menjadi data yang bermanfaat dan siap untuk di mo
 node yang digunakan:
 - **Groupby**
 meringkas data berdasarkan kelompok tertentu
+<img width="1399" height="664" alt="image" src="https://github.com/user-attachments/assets/96847f72-0d52-44c5-b9f4-e92e1c01aebf" />
+
 - **Table Partitioner**
 membagi data menjadi dua bagian
 ---
