@@ -28,7 +28,9 @@ node yang digunakan:
 - **Groupby**
 meringkas data berdasarkan kelompok tertentu
 <img width="1399" height="664" alt="image" src="https://github.com/user-attachments/assets/96847f72-0d52-44c5-b9f4-e92e1c01aebf" />
-
+Di workflow yang dikerjakan, mengelompokkan data berdasarkan provinsi dengan rata-rata tingkat kegemaran membaca dan rata-rata durasi membaca harian
+<img width="1388" height="665" alt="image" src="https://github.com/user-attachments/assets/6b62b321-c3eb-4e2f-afd4-fac03fb786e2" />
+kemudian ada
 - **Table Partitioner**
 membagi data menjadi dua bagian
 ---
